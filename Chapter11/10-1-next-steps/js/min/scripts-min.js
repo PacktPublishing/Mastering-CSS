@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".mobile-menu-icon").on("click",function(){$(".primary-nav").slideToggle(),$(this).toggleClass("open")}),$(".learn-more").on("click",function(e){e.preventDefault(),$(".modal-learn-more").fadeIn()}),$(".close-modal").on("click",function(e){e.preventDefault(),$(".modal-learn-more").fadeOut()})});

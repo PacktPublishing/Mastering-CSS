@@ -1,0 +1,30 @@
+@mixin transition($property: all, $duration: .25s, $timing-function: ease) {
+	-webkit-transition: $property $duration $timing-function;
+	-moz-transition: $property $duration $timing-function;
+	-o-transition: $property $duration $timing-function;
+	transition: $property $duration $timing-function;
+}
+@mixin translateX($distance) {
+	-webkit-transform: translateX($distance);
+	-moz-transform: translateX($distance);
+	-ms-transform: translateX($distance);
+	transform: translateX($distance);
+}
+
+@mixin box-shadow($distance: 15px, $color: #000) {
+	-webkit-box-shadow: 0 0 $distance $color;
+	-moz-box-shadow: 0 0 $distance $color;
+	-o-box-shadow: 0 0 $distance $color;
+	box-shadow: 0 0 $distance $color;
+}
+@mixin box-sizing() {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+@mixin border-radius($radius: 15px) {
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	-o-border-radius: $radius;
+	border-radius: $radius;
+}

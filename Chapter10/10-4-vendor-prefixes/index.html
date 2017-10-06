@@ -1,0 +1,195 @@
+
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<!-- mobile -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+
+<!-- description -->
+	<title>Section 9 Flexbox - Mastering CSS</title>
+
+<!-- stylesheets -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/icons.css">
+
+<!-- fonts -->
+<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700|Maven+Pro:400,700' rel='stylesheet' type='text/css'>
+<!-- stylesheets for older browsers -->	
+	<!-- ie6/7 micro clearfix -->
+	<!--[if lte IE 7]>
+		<style>
+		.grouping {
+		    *zoom: 1;
+		}
+		</style>
+	<![endif]-->
+	<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+
+</head>
+<body>
+<!-- 
+===============
+Nav
+===============
+-->
+<nav class="grouping">
+	<figure>
+		<img src="images/sharky.png" alt="Shark">
+	</figure>
+	<div class="mobile-menu-icon"></div>
+	<ul class="primary-nav grouping">
+		<li><a href="#">Home</a></li>
+		<li class="has-submenu"><a href="shark-movies.html">Movies</a>
+			<ul>
+				<li class=""><a href="">Jaws</a></li>
+				<li class=""><a href="">Sharknado</a></li>
+				<li class=""><a href="">Open Water</a></li>
+			</ul>
+		</li>
+		<li><a href="#">Species</a></li>
+		<li><a href="#">Chum</a></li>
+	</ul>
+</nav>
+
+<!-- Intro Section -->
+
+<section class="grouping">
+	<div class="wrapper">
+		<div class="intro-content">
+			<h1>Old Chompy</h1>
+			<h2>Dedicated to sharks and other aquatic species</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam minima repellat officiis, nulla qui, iure aspernatur, obcaecati consequuntur quam at sapiente laborum ut, in mollitia repellendus quas beatae porro dolores esse fuga asperiores incidunt voluptatum dolor facilis. Deserunt, optio consequuntur.</p>
+		</div><!-- end intro-content -->
+		<div class="go-premium">
+			<a href="#" class="call-to-action">Go Premium</a>
+			<p class="reasons">So many awesome features when you go premium. <a href="#">Learn more &raquo;</a></p>
+		</div><!-- end go-premium -->
+	</div><!-- end wrapper -->
+	
+</section><!-- end section -->
+<!-- 
+===============
+Secondary Sections
+===============
+-->
+<section class="secondary-section grouping">
+	<div class="wrapper columns">
+		<div class="column">
+			<figure>
+				<img src="images/octopus-icon.svg" alt="Octopus">
+			</figure>
+			<h2>The Octopus 1</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam eum magni eaque repellat sit nam laudantium, debitis ipsa accusantium porro fugiat tenetur totam, iure omnis excepturi corporis eos explicabo velit voluptas sapiente pariatur consectetur voluptates nemo assumenda. Laborum debitis aliquid, aliquam vero sequi delectus cupiditate? Officia, obcaecati, et? Iste, qui.</p>
+			<a href="#" class="button">Tenticals &raquo;</a>
+		</div>
+		<div class="column featured">
+			<div class="ribbon">Featured</div>
+			<figure>
+				<img src="images/crab-icon.svg" alt="Crab">
+			</figure>
+			<h2>The Crab 2</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita quas, sint accusantium ducimus repellat culpa reprehenderit dolor assumenda odio nihil odit ipsa, tenetur consectetur molestiae. Pariatur deleniti placeat nisi voluptatibus praesentium sapiente harum at nobis.</p>
+			<a href="#" class="button">Crabby &raquo;</a>
+		</div>
+		<div class="column">
+			<figure><img src="images/whale-icon.svg" alt="Whale"></figure>
+			<h2>The Whale 3</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat architecto quis voluptatem, ratione est explicabo nihil nesciunt voluptatum omnis, voluptas ea ex harum officiis, ipsum, fugit quidem! Nobis culpa maiores velit accusamus at sit blanditiis dicta eos, commodi consectetur consequatur, sed veritatis?</p>
+			<a href="#" class="button">Stuart &raquo;</a>
+		</div>
+	</div><!-- end wrapper -->
+
+</section>
+<!-- 
+===============
+Product Listing
+===============
+-->
+<section class="secondary-section grouping">
+    <ul class="wrapper product-list">
+        <li class="product-list-item">
+            <figure>
+                <img src="images/octopus-icon.svg" alt="Octopus">
+            </figure>
+            <h2>The Octopus</h2>
+            <p>Lorem ipsum dolor sit.</p>
+            <a href="#" class="button">Tenticals &raquo;</a>
+        </li>
+        <li class="product-list-item">
+            <figure>
+                <img src="images/crab-icon.svg" alt="Crab">
+            </figure>
+            <h2>The Crab</h2>
+            <p>Lorem ipsum dolor sit.</p>
+            <a href="#" class="button">Crabby &raquo;</a>
+        </li>
+        <li class="product-list-item">
+            <figure><img src="images/whale-icon.svg" alt="Whale"></figure>
+            <h2>The Whale</h2>
+            <p>Lorem ipsum.</p>
+            <a href="#" class="button">Stuart &raquo;</a>
+        </li>
+        <li class="product-list-item">
+            <figure>
+                <img src="images/octopus-icon.svg" alt="Octopus">
+            </figure>
+            <h2>The Octopus</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <a href="#" class="button">Tenticals &raquo;</a>
+        </li>
+        <li class="product-list-item">
+            <figure>
+                <img src="images/crab-icon.svg" alt="Crab">
+            </figure>
+            <h2>The Crab</h2>
+            <p>Lorem ipsum dolor.</p>
+            <a href="#" class="button">Crabby &raquo;</a>
+        </li>
+        <li class="product-list-item">
+            <figure><img src="images/whale-icon.svg" alt="Whale"></figure>
+            <h2>The Whale</h2>
+            <p>Lorem ipsum.</p>
+            <a href="#" class="button">Stuart &raquo;</a>
+        </li>
+    </ul><!-- end wrapper -->
+</section>
+<!-- 
+================ 
+Footer
+================
+-->	
+<footer>
+	<div class="wrapper grouping">
+		<ul>
+			<li class="list-heading">Social</li>
+			<li><a href=""><span class="icon fi-social-facebook"></span>Facebook</a></li>
+			<li><a href=""><span class="icon fi-social-twitter"></span>Twitter</a></li>
+			<li><a href=""><span class="icon fi-social-google-plus"></span>Google+</a></li>
+			<li><a href=""><span class="icon fi-social-dribbble"></span>Dribble</a></li>
+		</ul>
+		<ul>
+			<li class="list-heading">Interwebs</li>
+			<li><a href=""><span class="icon fi-social-github"></span>Github</a></li>
+			<li><a href=""><span class="icon fi-social-stack-overflow"></span>Stack Overflow</a></li>
+			<li><a href=""><span class="icon fi-social-zurb"></span>Zurb Foundation</a></li>
+		</ul>
+		<ul>
+			<li class="list-heading">Resources</li>
+			<li><a href=""><span class="icon fi-social-smashing-mag"></span>Smashing Mag</a></li>
+			<li><a href=""><span class="icon fi-social-treehouse"></span>Treehouse</a></li>
+			<li><a href=""><span class="icon fi-social-designer-news"></span>Designer News</a></li>
+		</ul>
+		<p class="legal-copy clear">Ol' Chompy - The Shark Site</p>
+
+	</div><!-- end wrapper -->
+</footer>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,221 @@
+/****************
+Reset
+****************/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1.4;
+  font-family: Arial, Helvetica, sans-serif;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+:focus {
+  outline: none;
+}
+strong {
+  font-weight: bold; 
+}
+/* micro clear fix */
+.grouping:before,
+.grouping:after {
+  content: " ";
+  display: table; 
+}
+.grouping:after {
+  clear: both; 
+}
+img, iframe, video, object {
+  max-width: 100%; 
+}
+/***************
+Global
+***************/
+::-moz-selection {
+  background-color: #eb2428; 
+}
+::selection {
+  background-color: #eb2428; 
+}
+
+.wrapper {
+  width:960px;
+  margin: 0 auto;
+}
+body {
+  background-color: #dcdcdc;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 16px; 
+}
+a {
+  text-decoration: none;
+  color: #eb2428;
+}
+h1 {
+  font-weight: 700;
+  font-size: 80px;
+  color: #0072ae;
+  margin-bottom: 10px; 
+}
+h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #eb2428;
+  font-weight: 700; 
+}
+p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+  font-size: 16px;
+
+}
+/***************
+Modular Styles
+***************/
+.float-left {
+  float: left; 
+}
+.float-right {
+  float: right; 
+}
+.clear {
+  clear: both; 
+}
+.bold {
+  font-weight: bold; 
+}
+.hidden,
+.hide {
+  display: none; 
+}
+.relative {
+  position: relative; 
+}
+.absolute {
+  position: absolute; 
+}
+.block {
+  display: block; 
+}
+.inline-block {
+  display: inline-block; 
+}
+.text-centered {
+  text-align: center; 
+}
+/****************
+Buttons
+****************/
+.button {
+  border: 2px solid #333;
+  color: #333;
+  padding: 10px 0;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-transition: all .25s linear;
+  -moz-transition: all .25s linear;
+  -o-transition: all .25s linear;
+  transition: all .25s linear;
+  transform: scale(.9,.9) translate(0, -5px);
+}
+.button:focus,
+.button:hover {
+  background-color: #333;
+  color: #fff;
+}
+.button-narrow {
+  width: 25%;
+}
+.button-alt {
+  color: #fff;
+  border-color: #fff;
+}
+/****************
+Interior Pages
+****************/
+.intro-content  {
+  width: 100%;
+  padding-bottom: 80px;
+}
+.content-block {
+  padding: 50px 0;
+}
+.content-block h1 {
+  color: #fff;
+}
+.style-2 {
+  background-color: #494949;
+}
+.style-2 p {
+  color: #fff;
+}
+.style-1 {
+  background-color: #58C9EB;
+}
+.style-1.wave-border {
+  background: #58C9EB url('../images/wave.jpg') repeat-x 0 0;
+}
+.content-block .figure {
+  float: left;
+  margin: 30px;
+}
+.secondary-section {
+  margin-bottom: 50px;  
+}
+/****************
+3 columns
+****************/
+ .column {
+  float: left;
+  width: 300px;
+  margin-left: 30px;
+ }
+.column:first-child {
+  margin-left: 0;
+}
+
+
