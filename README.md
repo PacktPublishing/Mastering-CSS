@@ -7,6 +7,12 @@ Rich begins your CSS training with a review of CSS best practices, such as using
 
 Your training with Rich Finelli then dives into detail about working with CSS and the best solutions to make your websites work. You'll go with him into CSS3 properties, transforms, transitions, and animations. You’ll gain his understanding of responsive web designs, web fonts, icon fonts, and the techniques used to support retina devices. Rich expands your knowledge of CSS so you can master one of the most valuable tools in modern web design.
 
+The code files that accompany Mastering CSS by Rich Finelli published through Packt Publishing. For more information about the book, check out http://www.mastering-css.com/
+
+### The video course
+There is also a video course that I created - also named Mastering CSS  - and is also published thru Packt Publishing which has a slightly different set of code files, which can be found here: https://bitbucket.org/richfinelli/mastering-css-course
+
+
 ## Instructions and Navigation
 All of the code is organized into folders. Each folder starts with a number followed by the application name. For example, Chapter02.
 
