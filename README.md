@@ -37,5 +37,4 @@ h2 {
 
 * [Responsive Web Design with HTML5 and CSS3 Essentials](https://www.packtpub.com/web-development/responsive-web-design-html5-and-css3-essentials?utm_source=github&utm_medium=repository&utm_campaign=9781783553075)
 
-### Suggestions and Feedback
-[Click here](https://docs.google.com/forms/d/e/1FAIpQLSe5qwunkGf6PUvzPirPDtuy1Du5Rlzew23UBp2S-P3wB-GcwQ/viewform) if you have any feedback or suggestions.
+
